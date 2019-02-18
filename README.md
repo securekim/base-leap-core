@@ -1,4 +1,4 @@
-# leap-core
+# base-leap-core
 [![Build Status](https://travis-ci.org/leapdao/leap-core.svg?branch=master)](https://travis-ci.org/leapdao/leap-core)
 [![codecov](https://codecov.io/gh/leapdao/leap-core/branch/master/graph/badge.svg)](https://codecov.io/gh/leapdao/leap-core)
 
@@ -10,7 +10,7 @@ yarn test
 
 install:
 ```
-yarn add -S leap-core
+yarn add -S base-leap-core
 ```
 
 ## Create Transaction Proof:

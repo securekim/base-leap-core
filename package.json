@@ -86,10 +86,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cryptonian-base/leap-core.git"
+    "url": "git+https://github.com/securekim/base-leap-core.git"
   },
   "bugs": {
-    "url": "https://github.com/cryptonian-base/leap-core/issues"
+    "url": "https://github.com/securekim/base-leap-core/issues"
   },
-  "homepage": "https://github.com/cryptonian-base/leap-core#readme"
+  "homepage": "https://github.com/securekim/base-leap-core#readme"
 }
