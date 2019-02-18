@@ -1,6 +1,6 @@
 {
   "name": "base-leap-core",
-  "version": "0.27.2",
+  "version": "0.27.3",
   "description": "transaction and block implementation",
   "main": "dist/index.js",
   "types": "./index.d.ts",
@@ -47,7 +47,7 @@
     "trailingComma": "es5",
     "bracketSpacing": true
   },
-  "author": "Leap DAO",
+  "author": "BASE",
   "license": "AGPL-3.0",
   "devDependencies": {
     "@babel/core": "^7.1.6",
