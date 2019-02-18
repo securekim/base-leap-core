@@ -1,6 +1,6 @@
 {
-  "name": "leap-core",
-  "version": "0.27.1",
+  "name": "base-leap-core",
+  "version": "0.27.2",
   "description": "transaction and block implementation",
   "main": "dist/index.js",
   "types": "./index.d.ts",
@@ -48,11 +48,11 @@
     "bracketSpacing": true
   },
   "author": "Leap DAO",
-  "license": "AGPL-3.0-or-later",
+  "license": "AGPL-3.0",
   "devDependencies": {
     "@babel/core": "^7.1.6",
     "@babel/preset-env": "^7.1.6",
-    "babel-cli": "^6.11.4",
+    "babel-cli": "^6.26.0",
     "babel-core": "^6.10.4",
     "babel-eslint": "^10.0.1",
     "babel-loader": "^8.0.4",
@@ -68,7 +68,7 @@
     "eslint-config-prettier": "^3.3.0",
     "eslint-plugin-import": "^2.2.0",
     "mocha": "^5.2.0",
-    "nyc": "^11.2.1",
+    "nyc": "^13.3.0",
     "prettier": "^1.15.3",
     "sinon": "^7.2.2",
     "sinon-chai": "^3.3.0",
@@ -79,5 +79,17 @@
     "babel-polyfill": "^6.26.0",
     "ethereumjs-util": "^6.0.0",
     "jsbi-utils": "^1.0.0"
-  }
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cryptonian-base/leap-core.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cryptonian-base/leap-core/issues"
+  },
+  "homepage": "https://github.com/cryptonian-base/leap-core#readme"
 }
