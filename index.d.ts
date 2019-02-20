@@ -155,6 +155,9 @@ declare module "base-leap-core" {
     public static transfer(inputs: Array<Input>, outputs: Array<Output>): Tx<Type.TRANSFER>;
     public static spendCond(inputs: Array<Input>, outputs: Array<Output>): Tx<Type.SPEND_COND>;
 
+    // Cryptonian - Expose function!.
+    public static depositState(depositId:number, address:string, color:number, tokenId:number, target:string, state:string): Tx<Type.DEPOSIT>;
+
     public static fromJSON<TxType extends Type>(o: {
       type: TxType;
       inputs: Array<InputJSON>;
